@@ -7,7 +7,8 @@
   line-height: 1.5;
   font-weight: 400;
   color: #e2e8f0;
-  background: #020617;
+  background: #07111f;
+  color-scheme: dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,14 +20,15 @@
 }
 
 html {
-  background: #020617;
+  background: #07111f;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #020617;
+  background: #07111f;
+  color: #e2e8f0;
 }
 
 #root {
@@ -36,4 +38,13 @@ body {
 button,
 input {
   font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.25);
+  color: #f8fafc;
 }
